@@ -35,4 +35,4 @@ const myArr3 = myArr.slice(1,3);
 console.log(myArr3);
 
 const myArr4 = myArr.splice(1,3);
-console.log(myArr4);
+console.log(myArr4); 
