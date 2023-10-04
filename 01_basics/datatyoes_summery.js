@@ -28,11 +28,31 @@ const anotherId = Symbol('123');
 // }
 // console.log(myObj);
 
-// *** function ***
-let myFunction = function(){
-    console.log("Hello javaScript");
-} 
-console.log(typeof myFunction);
+//  *** function ***
+// let myFunction = function(){
+//     console.log("Hello javaScript");
+// } 
+// console.log(typeof myFunction);
 
 // Reference types or non-primitive datatypes
 // Array, Objects, Functions
+
+// ++++++++++++++++++++++++++++++++++++++++++++
+// memory in javascript 
+// >stack< and >heap<
+// let name = "Suraj Kumar";
+// let anotherName = name;
+// anotherName = "SurayTechExpress";
+
+// console.log(name);
+// console.log(anotherName);
+
+// let userOne = {
+//     email : "suraj@gmail.com",
+//     upi : "user@ybl"
+// }
+
+// let userTwo = userOne;
+// userTwo.email = "surya@gmail.com"
+// console.log(userOne.email);
+// console.log(userTwo.email);
