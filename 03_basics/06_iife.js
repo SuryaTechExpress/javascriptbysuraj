@@ -2,9 +2,12 @@
 
 (function chai(){
     // named IIFE
-    console.log(`DB connected`);
+    // console.log(`DB connected`);
 })();
 
 (
-    (name)=> console.log(`DB connected Two ${name}`)
+    (name)=> 
+    console.log(`DB connected Two ${name}`)
 ) ('Suraj')
+
+
